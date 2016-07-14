@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.summary       = 'A robust comment system'
   s.description   = 'Provides robust comment functionality for any application.'
   s.license       = 'MIT'
-  s.homepage      = ''
+  s.homepage      = 'https://github.com/ceemion/comment_box'
   s.required_ruby_version = '>= 2.3.1'
 
   s.files = Dir.glob('lib/**/*')
