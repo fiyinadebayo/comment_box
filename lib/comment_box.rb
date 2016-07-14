@@ -1,0 +1,2 @@
+module CommentBox
+end
