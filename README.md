@@ -1,4 +1,4 @@
-# Comment Box
+# Comment Box [![Gem Version](https://badge.fury.io/rb/comment_box.svg)](https://badge.fury.io/rb/comment_box)
 This gem  provides a robust comment functionality for any rails application.
 
 ### Requirements
