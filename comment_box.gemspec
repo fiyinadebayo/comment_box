@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version       = CommentBox::VERSION
   s.authors       = ['Fiyin Adebayo']
   s.email         = 'fiyinsimeon@gmail.com'
-  s.date          = '2016-07-13'
+  s.date          = Date.today.strftime('%Y-%m-%d')
   s.summary       = 'A robust comment system'
   s.description   = 'Provides robust comment functionality for any application.'
   s.license       = 'MIT'

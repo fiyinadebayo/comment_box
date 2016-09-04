@@ -39,6 +39,6 @@ class <%= table_name.capitalize %>Controller < ApplicationController
   end
 
   def <%= singular_name %>_params
-    params.require(:<%= singular_name %>).permit(:author, :text, :likes)
+    params.require(:<%= singular_name %>).permit(:author, :email, :text, :likes)
   end
 end

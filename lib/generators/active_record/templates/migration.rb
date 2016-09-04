@@ -2,6 +2,7 @@ class CommentBoxCreate<%= table_name.camelize %> < ActiveRecord::Migration
   def up
     create_table :<%= table_name %> do |t|
       t.string :author
+      t.string :email
       t.text :text
       t.string :likes
 
